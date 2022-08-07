@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir KTP</title>
+</head>
+<body>
+  <h1 align="center" style="background-color:darkgrey; width: 60%;">FORMULIR PENDAFTARAN KARTU TANDA PENDUDUK (KTP)</h1>
+    <h3 border="1">Perhatian :</h3>
+    <ol>
+      <li>Harap diisi dengan huruf cetak dan menggunakan tinta hitam</li>
+      <li>Untuk kolom pilihan harap memberi tanda silang (X)
+        pada kotak pilihan</li>
+        <li>Setelah formulir diisi dan ditanda tangani, harap
+          diserahkan kembali ke kantor kelurahan</li>
+        </ol>
+  <!--Formulir-->
+  <form class="" action="index.html" method="post" border="1">
+    <table cellpadding="5">
+  <tr>
+    <td>Nomor Pendaftaran</td>
+    <td type="number" name="angka" value="" placeholder=""></td>
+  </tr><br>
+
+  <tr>
+    <td>Nama Lengkap</td>
+    <td><input type="text" name="teks" value="" placeholder="Nama Lengkap"></td>
+  </tr>
+
+  <tr>
+    <td>Tempat Tanggal Lahir</td>
+    <td><input name="Tempat" type="text" placeholder="Tempat Lahir">
+      <input name="Tanggal Lahir" type="date"></td>
+  </tr>
+
+  <tr>
+    <td>Pekerjaan</td>
+    <td><input type="text" name="teks" value="" placeholder="Pekerjaan"></td>
+  </tr>
+
+  <tr>
+    <td>Status Pernikahan</td>
+    <td>
+      <input type="radio" name="status" value="menikah">Menikah
+      <input type="radio" name="status" value="belum menikah">Belum menikah
+      <input type="radio" name="status" value="janda">Janda
+      <input type="radio" name="status" value="duda">Duda
+    </td>
+  </tr>
+
+  <tr>
+    <td>Alamat Lengkap</td>
+    <td><input name="name" rows="5" cols="30" placeholder=
+    "Alamat Lengkap"></td>
+  </tr>
+
+  <tr>
+    <td>Agama</td>
+    <td>
+      <select name="agama">
+      <option value="">--Pilih Agama--</option>
+      <option value="Islam"></option>
+      <option value="Kristen"></option>
+      <option value="Katolik"></option>
+      <option value="Hindu"></option>
+      <option value="Budha"></option>
+      <option value="Konghucu"></option>
+    </select>
+    </td>
+   </tr>
+  
+  <tr>
+    <td>Email</td>
+    <td><input type="text" name="teks" value="" placeholder="email"></td>
+  </tr>
+
+  <tr>
+    <td>Provinsi</td>
+    <td>
+      <select name="provinsi">
+      <option value="">--Provinsi--</option>
+      <option value="Jawa timur"></option>
+      <option value="Jawa tengah"></option>
+      <option value="Jawa barat"></option>
+      </select>
+    </td>
+  </tr>
+
+  <tr>
+    <td>Kota</td>
+    <td><input align="left" type="text" name="teks" placeholder="Kota"></td>
+    <td><input align="right" type="text" name="teks" placeholder="Kecamatan"></td>
+  </tr>
+  <tr>
+    <td>Jenis Kelamin</td>
+    <td>
+      <input type="radio" name="jenis kelamin" value="pria">Pria
+      <input type="radio" name="jenis kelamin" value="wanita">Wanita
+    </td>
+  </tr>
+
+  <tr>
+    <td>Tanggal Pendaftaran</td>
+    <td><input align="left" type="text" name="teks" placeholder="Tanggal"></td>
+    <td><input align="right" type="text" name="teks" placeholder="Bulan"></td>
+  </tr>
+
+  <tr>
+    <td><input align="center" type="submit" value="Daftar">
+    <input align="center" type="reset" value="Cancel"></td>
+  </tr>
+  </table>
+</body>
+</html>
